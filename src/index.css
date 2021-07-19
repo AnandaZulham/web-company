@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-green {
+  @apply py-4 px-6 bg-green-500 rounded-sm mt-10 inline-block mx-4
+}
+@media (max-width:640px) {
+  .sidebar {
+	@apply h-full w-full bg-green-500 flex flex-col text-center fixed top-0 bottom-0 right-0 left-0 
+  }
+}
+
+.card {
+  @apply border h-full border-gray-200 m-8 sm:mx-12 my-6 p-6 rounded-lg text-center bg-white w-auto;
+}
